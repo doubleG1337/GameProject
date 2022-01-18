@@ -1,0 +1,8 @@
+﻿  Game.cpp
+C:\Users\guurg\source\repos\GameProject\Game.cpp(18,9): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  main.cpp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 19 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  GameProject.vcxproj -> C:\Users\guurg\source\repos\GameProject\x64\Release\GameProject.exe

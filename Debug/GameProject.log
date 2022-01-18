@@ -1,0 +1,17 @@
+﻿  Game.cpp
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_FreeSurface в функции "public: void __thiscall Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QAEXPBDHHHH_N@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_CreateWindow в функции "public: void __thiscall Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QAEXPBDHHHH_N@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_DestroyWindow в функции "public: void __thiscall Game::clean(void)" (?clean@Game@@QAEXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_PollEvent в функции "public: void __thiscall Game::handleEvents(void)" (?handleEvents@Game@@QAEXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_CreateRenderer в функции "public: void __thiscall Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QAEXPBDHHHH_N@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_CreateTextureFromSurface в функции "public: void __thiscall Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QAEXPBDHHHH_N@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_SetRenderDrawColor в функции "public: void __thiscall Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QAEXPBDHHHH_N@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_RenderClear в функции "public: void __thiscall Game::render(void)" (?render@Game@@QAEXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_RenderCopy в функции "public: void __thiscall Game::render(void)" (?render@Game@@QAEXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_RenderPresent в функции "public: void __thiscall Game::render(void)" (?render@Game@@QAEXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_DestroyRenderer в функции "public: void __thiscall Game::clean(void)" (?clean@Game@@QAEXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_Init в функции "public: void __thiscall Game::init(char const *,int,int,int,int,bool)" (?init@Game@@QAEXPBDHHHH_N@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ _SDL_Quit в функции "public: void __thiscall Game::clean(void)" (?clean@Game@@QAEXXZ).
+D:\C++libs\SDL2\lib\x64\SDL2.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+D:\C++libs\SDL2\lib\x64\SDL2main.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Users\guurg\source\repos\GameProject\Debug\GameProject.exe : fatal error LNK1120: неразрешенных внешних элементов: 13
